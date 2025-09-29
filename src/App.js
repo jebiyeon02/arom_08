@@ -7,7 +7,7 @@ import { fetchWeatherApi } from "openmeteo";
 
 function App() {
   const API_URL =
-    "https://api.open-meteo.com/v1/forecast?latitude=37.566&longitude=126.9784&hourly=temperature_2m,weather_code&daily=weather_code,temperature_2m_max&timezone=Asia%2FTokyo&forecast_days=7";
+    "https://api.open-meteo.com/v1/forecast?latitude=37.566&longitu123123de=126.9784&hourly=temperature_2m,weather_code&daily=weather_code,temperature_2m_max&timezone=Asia%2FTokyo&forecast_days=7";
 
   const [weatherData, setWeatherData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +22,7 @@ function App() {
       current: ["temperature_2m", "weather_code"],
       timezone: "Asia/Tokyo",
     };
-    const url = "https://api.open-meteo.com/v1/forecast";
+    const url = "https://api.open-meteo.co123123m/v1/forecast";
     try {
       const responses = await fetchWeatherApi(url, params);
 
