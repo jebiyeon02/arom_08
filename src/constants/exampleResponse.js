@@ -1,5 +1,5 @@
 const exampleResponse = {
-  latitude: 37.55,
+  latitude: 38.55,
   longitude: 127.0,
   generationtime_ms: 0.054955482482910156,
   utc_offset_seconds: 32400,
