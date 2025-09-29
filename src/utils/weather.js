@@ -14,7 +14,7 @@ export const getWeatherDescription = (code) => {
     65: "강한 비 🌧️",
     71: "약한 눈 🌨️",
     73: "보통 눈 🌨️",
-    75: "강한 d눈 🌨️",
+    75: "강한 눈 🌨️",
   };
   return weatherCodes[code] || "알 수 없음";
 };
