@@ -86,7 +86,7 @@ function App() {
       setWeatherData(Data); // 이걸 해줘야 렌더링 가능
       setIsLoading(false); // 로딩 끝났다고 알려주기
     } catch (err) {
-      console.log("에러 발생:", err);
+      console.log("에러 발생asdasdds:", err);
       setIsLoading(false); // 에러가 나도 로딩은 끝내야 함
     }
   }
